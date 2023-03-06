@@ -1,0 +1,114 @@
+.expenses{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 75vw;
+    background-color: #101010;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expensesCard{
+    background-color: white;
+    width: 95%;
+    height: 94%;
+    border-radius: 30px;
+
+/*     display: flex;
+ */    
+}
+.expensesOverview{
+    width: 65%;
+    padding: 60px;
+}
+.expensesHeader{
+   display: flex;
+   justify-content: space-between;
+}
+.expensesTitle{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #262A41;
+}
+.expensesActions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personOne{
+    position: relative;
+    left: -73%;
+    z-index: 3;
+}
+.personTwo{
+    position: relative;
+    left: -83%;
+    z-index: 2;
+}
+.personThree{
+    position: relative;
+    left: -93%;
+    z-index: 1;
+}
+.addIcon{
+    cursor: pointer;
+    margin-left: -6rem;
+}
+.dateRange{
+   margin-top: 10px;
+   margin-bottom: 46px;
+   opacity: 0.5;
+   font-size: 16px;
+
+}
+.expensesOverviewHeader{
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #dedede;
+}
+.expensesOverviewTitle{
+    font-size: 18px;   
+    color: #262A41;
+    font-weight: 600;
+}
+.expenseItem{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expenseItemLeft{
+    display: flex;
+    align-items: center;
+}
+.expenseItemDiv{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expenseItemDetails{
+    margin-left: 1rem;
+}
+.expenseItemTitle{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.expenseItemTime{
+  opacity: 0.5;
+
+}
+.expenseItemPrice{
+  font-weight: 600;
+}
