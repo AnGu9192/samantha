@@ -14,11 +14,10 @@
 .expensesCard{
     background-color: white;
     width: 95%;
-    height: 94%;
-    border-radius: 30px;
-
-/*     display: flex;
- */    
+/*      height: 100%;
+ */     border-radius: 30px;
+     display: flex;
+     
 }
 .expensesOverview{
     width: 65%;
@@ -111,4 +110,73 @@
 }
 .expenseItemPrice{
   font-weight: 600;
+}
+
+.moneyOverview{
+    width: 35%;
+    background: #F9FAFC;
+    border-radius: 0 50px 50px 0;
+    padding: 5rem 2rem;
+}
+.moneyOverviewTitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.expendCategory{
+    display: flex;
+    justify-content: space-between;
+}
+.expendCategoryName{
+    font-weight: 500;
+}
+
+.spendCategoryBar{
+   height: 5px;
+   width: 100%;
+   background-color: #ECEFF5;
+   position: relative;
+   border-radius: 5px;
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+}
+.spendCategoryColorBar{
+    height: 5px;
+    background-color: #31BA96;
+    position: absolute;
+    border-radius: 5px;
+
+}
+.illustrationPart{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.pants{
+}
+
+.illustrationPartTitle{
+    margin-top: 19px;
+    font-size: 16px;
+    color: #273240;
+    font-weight: 600;
+
+}
+.illustrationPartText{
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 21px;
+}
+.illustrationPartButton{
+   margin-top: 20px;
+   width: 200px;
+   height: 40px;
+   background: #101010;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 8px;
+
 }
